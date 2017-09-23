@@ -163,6 +163,7 @@ img{
 .section6{
     background: url("../images/6-bg.png")bottom repeat-x;
     height: auto;
+    padding-bottom: 80px;
 }
 .section7{
     background: #d1e9f0;
@@ -195,6 +196,7 @@ img{
 .section9{
     background: #d1e9f0;
     height: auto;
+    padding-bottom: 80px;
 }
 
 
@@ -202,15 +204,7 @@ img{
 
 
 
-{
-  background: url("../img/section8-pembalut.png") no-repeat;
-  width: 510px;
-  height: 474px;
-  position: absolute;
-  top: 90px;
-  background-size: 630px 474px;
-  left: 0;
-}
+
 @media (max-width: 1080px) {
   .section8 .pembalut {
     width: 410px;
