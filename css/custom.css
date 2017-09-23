@@ -1,0 +1,238 @@
+
+@font-face{
+    font-family: Raleway;
+    src: url(font/Raleway-Regular.woff);
+}
+@font-face{
+    font-family: Gothamss;
+    src: url(../fonts/Gotham-Book.otf);
+}
+
+*{
+    margin: 0;
+    font-family: 'Gothamss';
+}
+
+body{
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+	color: black;
+    margin: auto;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.teks-pink{
+    color: #f1678e;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container{
+	margin: auto;
+}
+@media (min-width: 720px) {
+.hero-banner{
+    background: url("../images/1-cover.jpg") no-repeat;
+    background-size: cover;
+    height: 117vh;
+    width: 100%;
+    position: relative;
+}
+.hero-banner .hero-image{
+    position: absolute;
+    top: 20%;
+}
+}
+@media (max-width: 719px) {
+.hero-banner{
+    background: url("../images/1-cover-mobile.png") no-repeat;
+    background-size: cover;
+    height: 117vh;
+    width: 100%;
+    position: relative;
+}
+.hero-banner .hero-image{
+    position: absolute;
+    top: 50%;
+}
+}
+
+.bg-atas{
+    background: url("../images/2-liptin.png") center top no-repeat;
+    width: 90%;
+    height: 100%;
+}
+
+.section2{
+    background: url("../images/2-bg.png")bottom repeat-x;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.section2 p{
+    padding:20px 0;
+}
+
+.section3{
+    background: #f4dbdc;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.section3-atas{
+    background: url("../images/3-bg-pencil.png") right bottom no-repeat;
+    background-size: 115px;
+    width: 100%;
+    height: auto;
+}
+
+.section3-bawah{
+    background: url("../images/3-bg-lotion.png") left bottom no-repeat;
+    background-size: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.img-testimoni{
+    position: relative;
+    top: 40px;
+}
+
+.bg-testimoni{
+    background:#fdeff2; 
+    padding:40px 20px 10px 20px;
+}
+
+.section4{
+    background: url("../images/4-bg.png")bottom repeat-x;
+    padding-bottom: 80px;
+}
+
+.section4 p{
+    padding-top:40px;
+}
+
+.section5{
+    background: #feeec4;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.section5-bawah{
+    background: url("../images/5-bg-blender.png") left bottom no-repeat;
+    background-size: 300px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.img-testimonibiru{
+    position: relative;
+    top: 40px;
+}
+
+.bg-testimonibiru{
+    background:#d0e7ed; 
+    padding:50px 20px 10px;
+}
+
+.kolom3-kiri{
+    float: left;
+    width: 33%;
+}
+
+.kolom3-kanan{
+    float: right;
+    width: 32%;
+}
+
+.section6{
+    background: url("../images/6-bg.png")bottom repeat-x;
+    height: auto;
+}
+.section7{
+    background: #d1e9f0;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.section7-bawah{
+    background: #d1e9f0;
+}
+.img-testimonikuning{
+    position: relative;
+    top: 40px;
+}
+
+.bg-testimonikuning{
+    background:#feeec4; 
+    padding:50px 20px 10px;
+}
+
+.langkah-preneur{
+    border-bottom: 0.5px solid white;
+}
+
+.section8{
+    background: url("../images/6-bg.png")bottom repeat-x;
+    padding-bottom: 20px;
+}
+
+.section9{
+    background: #d1e9f0;
+    height: auto;
+}
+
+
+
+
+
+
+{
+  background: url("../img/section8-pembalut.png") no-repeat;
+  width: 510px;
+  height: 474px;
+  position: absolute;
+  top: 90px;
+  background-size: 630px 474px;
+  left: 0;
+}
+@media (max-width: 1080px) {
+  .section8 .pembalut {
+    width: 410px;
+    background-size: contain;
+  }
+}
+@media (max-width: 900px) {
+  .section8 .pembalut {
+    width: 310px;
+    left: -40px;
+  }
+}
+@media (max-width: 600px) {
+  .section8 .pembalut {
+    top: 200px;
+    left: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+
+	.desk{
+		display:none!important;
+	}
+}
