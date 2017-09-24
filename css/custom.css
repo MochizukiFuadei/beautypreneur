@@ -10,7 +10,6 @@
 
 *{
     margin: 0;
-    font-family: 'Gothamss';
 }
 
 body{
@@ -19,18 +18,23 @@ body{
     font-family: sans-serif;
 	color: black;
     margin: auto;
+    font-family: 'Gothamss';
+	overflow-x:hidden;
 }
 
-.wrapper{
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.ilust{
+	max-width:100%;
 }
+.img{
 
-
+	margin:auto;	
+}
 img{
-    margin: auto;
-    display: block;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 .teks-pink{
@@ -41,9 +45,6 @@ img{
     clear: both;
 }
 
-.container{
-	margin: auto;
-}
 @media (min-width: 720px) {
 .hero-banner{
     background: url("../images/1-cover.jpg") no-repeat;
@@ -229,4 +230,51 @@ img{
 	.desk{
 		display:none!important;
 	}
+}
+@media only screen and (min-width: 720px) {
+/*Layout*/
+.containss{
+	padding:10px;
+}
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+	float:left;	
+}
+.col1{
+	width:8.33333333333333333%;	
+}
+.col2{
+			 	
+	width:16.66666666666666667%;	
+}
+.col3{
+	width:25%;
+}
+.col4{
+	width:33.33333333333333333%;
+}
+.col5{
+	width:41.66666666666666667%;
+}
+.col6{
+	width:50%;
+}
+.col7{
+	width:58.33333333333333333%;
+}
+.col8{
+	width:66.66666666666666667%;
+}
+.col9{
+	width:75%;	
+}
+.col10{
+	width:83.33333333333333333%;	
+}
+.col11{
+	width:91.66666666666666667%;	
+}
+.col12{
+	width:100%;
+}
+/*!layout*/
 }
