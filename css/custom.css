@@ -17,13 +17,15 @@ body{
     font-size: 14px;
     font-family: sans-serif;
 	color: black;
-    margin: auto;
     font-family: 'Gothamss';
-	overflow-x:hidden;
+}
+html{
+	overflow-x:hidden!important;	
 }
 
 .ilust{
 	max-width:100%;
+	margin:auto;	
 }
 .img{
 
